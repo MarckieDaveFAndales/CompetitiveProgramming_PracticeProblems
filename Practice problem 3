@@ -1,0 +1,6 @@
+n = 2*7
+monkey = int(input("Enter minimum range: ")) 
+Monkey = int(input("Enter maxmimum range: "))
+for i in range(monkey, Monkey+1):
+    if (i%n==0):
+        print(i)
