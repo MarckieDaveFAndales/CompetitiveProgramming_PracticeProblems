@@ -1,0 +1,5 @@
+n = int(input("Enter any number: "))
+r = 0
+print("The mutplication table of " + str(n) + " is: \n")
+for i in range (1,11):
+    print("" + str(n) + "x" + str(i) + "= " + str(n*i) + "\n")
